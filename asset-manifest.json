@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Webflix-MovieSearchEngine/static/css/main.51db7776.css",
+    "main.js": "/Webflix-MovieSearchEngine/static/js/main.c1dc5de1.js",
+    "static/js/787.21eb05c8.chunk.js": "/Webflix-MovieSearchEngine/static/js/787.21eb05c8.chunk.js",
+    "index.html": "/Webflix-MovieSearchEngine/index.html",
+    "main.51db7776.css.map": "/Webflix-MovieSearchEngine/static/css/main.51db7776.css.map",
+    "main.c1dc5de1.js.map": "/Webflix-MovieSearchEngine/static/js/main.c1dc5de1.js.map",
+    "787.21eb05c8.chunk.js.map": "/Webflix-MovieSearchEngine/static/js/787.21eb05c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51db7776.css",
+    "static/js/main.c1dc5de1.js"
+  ]
+}
