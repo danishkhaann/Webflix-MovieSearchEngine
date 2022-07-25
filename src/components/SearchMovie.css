@@ -1,0 +1,19 @@
+.search-input {
+  border: 2px solid #fff;
+  outline: none;
+  color: #fff;
+  background-color: #222;
+  font-size: 20px;
+  padding: 15px 20px;
+  width: 500px;
+  border-radius: 6px;
+  transition: all 0.5s ease-in;
+}
+
+.search-input:focus {
+  border: 2px solid red;
+}
+
+.search-input::-webkit-search-cancel-button {
+  background-color: red;
+}

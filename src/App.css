@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+}
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 110px;
+  margin: 0 0 50px 0;
+  font-family: "Train One", cursive;
+}
+
+.popcorn-icon {
+  color: #ff0000;
+}
+
+.poster-section {
+  padding: 20px 0;
+}
+
+.heading {
+  color: #ffffff;
+  margin: 20px 20px;
+}
+
+.movie-list {
+  width: 90%;
+  margin: auto;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 80px;
+  }
+  .search-box,
+  .search-input {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 426px) {
+  .title {
+    font-size: 70px;
+  }
+
+  .movie-list {
+    width: 50%;
+  }
+}
+
+@media (max-width: 380px) {
+  .title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .title {
+    font-size: 50px;
+  }
+}

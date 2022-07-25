@@ -1,0 +1,34 @@
+.poster {
+  display: inline-block;
+  margin: 20px 20px;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.poster:hover {
+  transform: scale(1.1);
+}
+
+.poster img {
+  width: 180px;
+}
+
+.movie-detail {
+  display: none;
+  color: #fff;
+  background-color: #000000ad;
+  width: 100%;
+  height: 100%;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.poster:hover .movie-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
